@@ -4,9 +4,14 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const StyledNavBar = styled.nav`
-    background: #F8FF00;
-    color: black;
-    font-size: 2em;
+    margin-bottom: 3rem;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr auto 1fr 1fr;
+    }
 
 `;
 

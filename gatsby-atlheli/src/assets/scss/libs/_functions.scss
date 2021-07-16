@@ -1,0 +1,8 @@
+/// SASS Functions utilized globally
+
+/// Gets a Palette Value
+/// @param {string} $keys Key for calling value
+/// @return {string} Return the Value we want
+@function _palette($keys...) {
+  @return map-get($palette, $keys...);
+}
