@@ -14,7 +14,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }) => {
     return (
         <>
-            <GlobalStyles />
+            {/* <GlobalStyles /> */}
             <Nav />
             {children}
             <Footer />

@@ -1,13 +1,22 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import styled from 'styled-components';
+
+const StyledNavBar = styled.nav`
+    background: #F8FF00;
+    color: black;
+    font-size: 2em;
+
+`;
+
 interface Props {
-    
+
 }
 
 const Nav: React.FC = (props: Props) => {
     return (
-        <nav>
+        <StyledNavBar>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -22,7 +31,7 @@ const Nav: React.FC = (props: Props) => {
                     <Link to="/contact">Contact Us</Link>
                 </li>
             </ul>
-        </nav>
+        </StyledNavBar>
     )
 }
 

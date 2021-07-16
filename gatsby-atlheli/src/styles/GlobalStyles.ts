@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 // Image Assets
-import Heli1 from '../images/Heli1.svg';
+import Heli1 from '../assets/images/Heli1.svg'
 
 const GlobalStyles = createGlobalStyle`
 
